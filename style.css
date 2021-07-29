@@ -7,18 +7,19 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+h1{
+  font-size: 48px;
+  font-weight: 600;
+}
 
-
+a{
+  text-decoration: none;
+}
 header{
-  
 background: #264653;
 }
 
 
-.honda-info h1{
-  font-size: 48px;
-  font-weight: 600;
-}
 
 .btn{
   background-color: #E76F51;
@@ -29,4 +30,75 @@ background: #264653;
 .header-honda{
   margin-top: 155px;
   margin-bottom: 96px;
+}
+
+/* bikes-title section css  */
+
+.bikes-title{
+  margin-top: 57px;
+  text-align: center;
+}
+.bikes-title p{
+  color: #E76F51;
+  font-weight: 600;
+}
+.bikes-title p::after{
+content: '';
+border-bottom: 1px solid #E76F51;
+width: 50px;
+display: flex;
+margin: 0 auto;
+padding: 5px;
+}
+
+.bike-image-1 img , .bike-image-2 img{
+  width: 288px;
+  height: 243px;
+  margin-top: 127px;
+  margin-left: 20px;
+}
+
+.bike-image-1 img{
+  filter: grayscale(100);
+}
+
+/* clients section css  */
+
+.client-title{
+  text-align: center;
+  margin-top: 165px;
+}
+.client-title span{
+  color: #E76F51;
+}
+.box{
+  width: 322px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 52px;
+}
+
+.user-info{
+  padding: 40px 35px;
+}
+.user-info img{
+  width:149px ;
+  margin-bottom: 30px;
+}
+.fa-star{
+  color: #E76F51;
+}
+.user-info h5,h6{
+  color: #23A6F0;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px 0;
+}
+.user-3 img{
+border-radius: 50%;
+height: 150px;
+
 }

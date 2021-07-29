@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+header{
+  
+background: #264653;
+}
+
+
+.honda-info h1{
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.btn{
+  background-color: #E76F51;
+  color: white;
+  padding: 10px 46px ;
+}
+
+.header-honda{
+  margin-top: 155px;
+  margin-bottom: 96px;
+}

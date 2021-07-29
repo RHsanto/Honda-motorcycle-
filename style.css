@@ -19,8 +19,6 @@ header{
 background: #264653;
 }
 
-
-
 .btn{
   background-color: #E76F51;
   color: white;
@@ -52,10 +50,7 @@ padding: 5px;
 }
 
 .bike-image-1 img , .bike-image-2 img{
-  width: 288px;
-  height: 243px;
   margin-top: 127px;
-  margin-left: 20px;
 }
 
 .bike-image-1 img{
@@ -100,7 +95,7 @@ padding: 5px;
 .user-3 img{
 border-radius: 50%;
 height: 150px;
-
+border: 1px solid rgb(163, 162, 162);
 }
 
 
@@ -131,20 +126,49 @@ height: 150px;
   margin-right: -15px;
   text-align: center;
   padding: 100px 50px;
-  
-}
-.vehicle-info h3{
-  font-weight: 600;
-}
-.vehicle-info h6{
-  color: black;
-  line-height: 26px;
-}
-.vehicle-img img{
- width: 100%;
 }
 
 .img-2 img{
- width: 103%;
- margin-left: -10px;
+width: 105%;
+}
+.button{
+color: white;
+padding: 10px 46px ;
+background-color: #db0f12;
+border: 0;
+border-radius: 5px;
+}
+
+.button:hover{
+  background: #880709;
+}
+.form-head{
+padding-top: 50px;
+}
+form p{
+ padding:20px 60px ;
+}
+.input{
+padding: 20px;
+width: 40%;
+margin-left: 5%;
+margin-bottom: 20px;
+border: 0;
+background-color: #d9dcdd;
+border-radius: 5px;
+}
+
+form h5{
+font-weight: 600;
+color: black;
+padding: 0px 50px;
+}
+
+form button{
+  background-color: #db0f12;
+  color: white;
+  padding: 10px 46px ;
+  border: 0;
+  border-radius: 5px;
+  margin: 50px;
 }

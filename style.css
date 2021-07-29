@@ -106,12 +106,12 @@ height: 150px;
 
 /* FQ section css  */
 
-.FQ-title{
+.FQ-title, .vehicle-title{
   margin-top: 160px;
   margin-bottom: 112px;
   text-align: center;
 }
-.FQ-title span{
+.FQ-title span, .vehicle-title span{
   color: #E76F51;
 }
 
@@ -124,4 +124,27 @@ height: 150px;
   font-size: 20px;
   line-height: 30px;
   color: black;
+}
+
+/* vehicle section css  */
+.vehicle-info{
+  margin-right: -15px;
+  text-align: center;
+  padding: 100px 50px;
+  
+}
+.vehicle-info h3{
+  font-weight: 600;
+}
+.vehicle-info h6{
+  color: black;
+  line-height: 26px;
+}
+.vehicle-img img{
+ width: 100%;
+}
+
+.img-2 img{
+ width: 103%;
+ margin-left: -10px;
 }

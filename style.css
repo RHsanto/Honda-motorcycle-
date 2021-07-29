@@ -3,43 +3,24 @@
   padding: 0;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
-}
+body{font-family: 'Poppins', sans-serif;}
 
-h1{
-  font-size: 48px;
-  font-weight: 600;
-}
+h1{font-size: 48px;font-weight: 600;}
 
-a{
-  text-decoration: none;
-}
-header{
-background: #264653;
-}
+a{ text-decoration: none;}
 
-.btn{
-  background-color: #E76F51;
-  color: white;
-  padding: 10px 46px ;
-}
+header{background: #264653;}
 
-.header-honda{
-  margin-top: 155px;
-  margin-bottom: 96px;
-}
+.btn{background-color: #E76F51; color: white; padding: 10px 46px ;}
+
+.header-honda{margin-top: 155px; margin-bottom: 96px;}
 
 /* bikes-title section css  */
 
-.bikes-title{
-  margin-top: 57px;
-  text-align: center;
-}
-.bikes-title p{
-  color: #E76F51;
-  font-weight: 600;
-}
+.bikes-title{ margin-top: 57px; text-align: center;}
+
+.bikes-title p{ color: #E76F51; font-weight: 600;}
+
 .bikes-title p::after{
 content: '';
 border-bottom: 1px solid #E76F51;
@@ -49,23 +30,16 @@ margin: 0 auto;
 padding: 5px;
 }
 
-.bike-image-1 img , .bike-image-2 img{
-  margin-top: 127px;
-}
+.bike-image-1 img , .bike-image-2 img{ margin-top: 127px;}
 
-.bike-image-1 img{
-  filter: grayscale(100);
-}
+.bike-image-1 img{ filter: grayscale(100);}
 
 /* clients section css  */
 
-.client-title{
-  text-align: center;
-  margin-top: 165px;
-}
-.client-title span{
-  color: #E76F51;
-}
+.client-title{text-align: center; margin-top: 165px;}
+
+.client-title span{ color: #E76F51;}
+
 .box{
   width: 322px;
   text-align: center;
@@ -76,16 +50,12 @@ padding: 5px;
   margin-top: 52px;
 }
 
-.user-info{
-  padding: 40px 35px;
-}
-.user-info img{
-  width:149px ;
-  margin-bottom: 30px;
-}
-.fas, .far{
-  color: #E76F51;
-}
+.user-info{padding: 40px 35px;}
+
+.user-info img{ width:149px ; margin-bottom: 30px;}
+
+.fas, .far{color: #E76F51;}
+
 .user-info h5,h6{
   color: #23A6F0;
   font-weight: 600;
@@ -106,13 +76,7 @@ border: 1px solid rgb(163, 162, 162);
   margin-bottom: 112px;
   text-align: center;
 }
-.FQ-title span, .vehicle-title span{
-  color: #E76F51;
-}
-
-.FQ img{
-  width: 75%;
-}
+.FQ-title span, .vehicle-title span{color: #E76F51;}
 
 .accordion-item span {
   font-weight: 600;
@@ -128,9 +92,8 @@ border: 1px solid rgb(163, 162, 162);
   padding: 100px 50px;
 }
 
-.img-2 img{
-width: 105%;
-}
+.img-2 img{width: 105%;}
+
 .button{
 color: white;
 padding: 10px 46px ;
@@ -139,30 +102,22 @@ border: 0;
 border-radius: 5px;
 }
 
-.button:hover{
-  background: #880709;
-}
-.form-head{
-padding-top: 50px;
-}
-form p{
- padding:20px 60px ;
-}
+.button:hover{background: #880709;}
+
+.form-head{padding-top: 50px;}
+
+form p{padding:20px 50px ;}
+
 .input{
 padding: 20px;
-width: 40%;
-margin-left: 5%;
+width: 45%;
+margin-left:50px;
 margin-bottom: 20px;
 border: 0;
 background-color: #d9dcdd;
 border-radius: 5px;
 }
 
-form h5{
-font-weight: 600;
-color: black;
-padding: 0px 50px;
-}
 
 form button{
   background-color: #db0f12;

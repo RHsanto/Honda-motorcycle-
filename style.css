@@ -88,7 +88,7 @@ padding: 5px;
   width:149px ;
   margin-bottom: 30px;
 }
-.fa-star{
+.fas, .far{
   color: #E76F51;
 }
 .user-info h5,h6{
@@ -101,4 +101,27 @@ padding: 5px;
 border-radius: 50%;
 height: 150px;
 
+}
+
+
+/* FQ section css  */
+
+.FQ-title{
+  margin-top: 160px;
+  margin-bottom: 112px;
+  text-align: center;
+}
+.FQ-title span{
+  color: #E76F51;
+}
+
+.FQ img{
+  width: 75%;
+}
+
+.accordion-item span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
 }
